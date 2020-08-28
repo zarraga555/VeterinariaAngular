@@ -1,0 +1,51 @@
+<div class="header-banner">
+  <div class="img-header3">
+    <div class="img-header">
+      <img class="img" src="/assets/img/veterinaria5.png" alt="">
+    </div>
+  </div>
+  <!--  -->
+  <div class="img-header2">
+    <div class="bienvenido">
+      <h1>Bienvenido de nuevo!</h1>
+      <br>
+        <form [formGroup]="contactForm" (ngSubmit)="login()">
+          <div class=" col-md-9 lo">
+            <div class="form-group">
+              <label>Correo Electronico</label>
+              <input type="email" formControlName="email"  class="form-control"  required>
+              <div class="alert alert-danger" *ngIf="email.invalid && (email.dirty || email.touched)">
+                <div class="container-error-message" *ngIf="email.invalid && (email.dirty || email.touched)">
+                  El correo Electronico es obligatorio
+                </div>
+                <div class="container-error-message" *ngIf="email.errors.minlength">
+                  El correo debe tener como minimo 5 caracteres y como maximo 30
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 lo">
+            <div class="form-group">
+              <label>Contraseña</label>
+              <input type="password" formControlName="password" class="form-control" autocomplete="on" requiered>
+              <div class="alert alert-danger" *ngIf="password.invalid && (password.dirty || password.touched)">
+                <div class="container-error-message" *ngIf="password.invalid && (password.dirty || password.touched)">
+                  La Contraseña es obligatoria
+                </div>
+                <div class="container-error-message" *ngIf="password.errors.minlength">
+                  La contraseña debe tener como minimo 5 caracteres
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 lo">
+            <a routerLink="#"><label for="" class="lbl">¿Olvidaste tu Constraseña?</label></a>
+          </div>
+
+          <div class="col-md-9 lo">
+            <button type="submit" id="btn" name="btn" class="btn btn-lg btn-primary btn-block">Iniciar Sesion</button>
+          </div>
+
+        </form>
+    </div>
+  </div>
