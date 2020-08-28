@@ -1,4 +1,7 @@
-# HolaMundo
+# veterinaria Angular
+Pequeño Proyecto Veterinaria con Angular, de la materia programación 4, no esta completo
+
+# Veterinaria
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
 
