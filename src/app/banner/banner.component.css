@@ -1,0 +1,180 @@
+.header-banner{
+  width: 100%;
+  height: 100vh;
+
+}
+/*
+.img-header{
+  height: 60%;
+} */
+
+.img {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 98;
+}
+
+.img-header2{
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.img-header3{
+  width: 50%;
+  float: right;
+}
+.container-header {
+  height: 100%!important;
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.degrade {
+  height: 100%!important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.bienvenido{
+  /* position: absolute;
+  padding: 50px;
+  width: 50%;
+  padding-top: 150px;
+  padding-left: 0px; */
+  position: absolute;
+  top: 45%;
+  padding: 0 90px;
+  width: 50%;
+  /* padding-top: 25%; */
+  /* padding-left: 0px;*/
+}
+
+#contact {
+  border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+  overflow-x: hidden;
+  /* border-top: solid 1px; */
+  position: relative;
+  margin-top: 25px;
+}
+section {
+  margin: 0;
+  /* padding: 50px; */
+  font-size: 100%;
+  font: inherit;
+  display: block;
+}
+#contact>.inner {
+  display: flex;
+  padding: 0 !important;
+}
+.inner {
+  /* padding: 4em 0 2em 0; */
+  margin: 0 auto;
+  max-width: 65em;
+  width: calc(100% - 6em);
+}
+#contact>.inner> :nth-child(2n - 1) {
+  padding: 4em 3em 2em 0;
+  /* border-right: solid 1px rgba(0, 0, 0, 0.1); */
+  width: 70%;
+  color: black;
+}
+#contact>.inner> :nth-child(2n) {
+  width: 40%;
+}
+.contd {
+  color: #000000;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  /* border-bottom: dotted 1px; */
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+#contact>.inner>.split>* {
+  /* padding: 3em 0 1em 3em; */
+  position: relative;
+}
+.contact-method {
+  margin: 0 0 1em 0;
+  padding-left: 3.25em;
+  position: relative;
+}
+.contact-method .icon {
+  left: 0;
+  position: absolute;
+  top: 0;
+  padding-right: 0px;
+}
+.fas {
+  display: inline-block;
+  padding-right: 20px;
+  color: #ffffff;
+}
+.icon.alt:before {
+  background-color: #000000;
+  border-radius: 100%;
+  color: #242943;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 2em;
+  color: #ffffff;
+}
+.cont {
+  margin: 0 0 0.5em 0;
+  font-size: 0.98rem;
+  color: #000000;
+  font-weight: 600;
+  line-height: 1.65;
+}
+.contentBanner{
+  padding: 20% 0;
+  margin-top: 5%;
+}
+.contentBanner > h1{
+  font-size: 1.8rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.container-ciudades {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.container-ciudades .card {
+  width: 330px;
+  border: 0px solid rgba(0,0,0,.125);
+  /* height: auto;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); */
+  overflow: hidden;
+  margin: 30px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.fasicon {
+  display: inline-block;
+  padding-right: 0px;
+  color: #ffffff;
+  font-size: 5rem;
+}
