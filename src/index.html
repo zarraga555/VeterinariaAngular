@@ -1,12 +1,47 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>HolaMundo</title>
+  <title>Clinica Veterinaria Fernandez</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+    * {
+      font-family: 'Nunito Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #000000;
+    }
+
+    body {
+      letter-spacing: -0.015em;
+      margin: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <script>
+    $(document).ready(function(){
+      $(window).scroll(function(){
+          if($(this).scrollTop()>0){
+              $('header').addClass('header2');
+          }else{
+              $('header').removeClass('header2');
+          }
+      });
+  });
+  </script>
 </head>
+
 <body>
   <app-root></app-root>
 </body>
