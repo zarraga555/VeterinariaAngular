@@ -1,0 +1,360 @@
+hr{
+  height: 1px;
+  width: 100%;
+  background-color: #E9ECEF;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 0 90px;
+  /* padding: 0 20px; */
+  /* color: #fff; */
+  position: fixed;
+  z-index: 99;
+  transition: 0.5s;
+}
+.header2 {
+  background-color: rgba(0, 0, 0, 0.87);
+  transition: 0.5s;
+}
+.logo {
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+  width: auto;
+}
+
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.show-menu-btn {
+  float: right;
+}
+
+.show-menu-btn em {
+  line-height: 100px;
+  /* color: #fff; */
+}
+.header2 > .show-menu-btn em {
+  color: #fff;
+}
+.header2 > .logo {
+  color: #fff;
+}
+.menu {
+  float: right;
+  line-height: 100px;
+}
+
+.menu a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+
+.show-menu-btn,
+.hide-menu-btn {
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 46px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.container-footer,
+.container-info {
+  flex-wrap: wrap;
+}
+
+.logo-redes {
+  width: 100%;
+}
+
+.soporte,
+.listas-footer,
+.ciudades {
+  margin-top: 40px;
+}
+
+.h2-footer {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.bienvenido {
+  position: absolute;
+  padding: 5px;
+  padding-top: 220px;
+  width: 60%;
+  margin-left: 20px;
+}
+
+.bienvenido h1 {
+  font-size: 2em;
+}
+
+.bienvenido2 {
+  position: static;
+  padding: 5px;
+  padding-top: 550px;
+  width: 100%;
+  margin-left: 20px;
+  justify-content: flex-end;
+}
+
+.bienvenido2 .fas {
+  width: 100%;
+  justify-content: center;
+  font-size: 36px;
+  padding-top: 25px;
+  text-align: center;
+  display: flex;
+  visibility: visible;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.img-header-information:before {
+  width: 70%;
+}
+
+.container.header {
+  width: 70%;
+}
+
+.bienvenido-information {
+  padding: 15px;
+  width: 90%;
+  padding-top: 150px;
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+.container-header {
+  width: 95%;
+}
+
+.bienvenido-information h1 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 1;
+  margin-bottom: 70px;
+}
+
+.formulario-information {
+  width: 100%;
+  margin-right: 0;
+  padding: 50px 15px;
+}
+
+.container-info {
+  width: 100%;
+}
+
+.container-information {
+  padding: 10px;
+}
+
+.mapa-information {
+  width: 600px;
+  margin-left: 0;
+}
+
+.mapa-information2 {
+  width: auto;
+  margin-left: 0;
+}
+
+.contaniner-city {
+  padding: 0;
+  width: 90%;
+  display: block;
+}
+
+.section-city {
+  width: 90%;
+}
+
+.show-menu-btn,
+.hide-menu-btn {
+  display: block;
+  color: #fff;
+}
+
+.fas fa-bars {
+  color: #fff;
+}
+
+.logo {
+  width: auto;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.menu {
+  position: fixed;
+  width: 30%;
+  height: 100vh;
+  background: #333;
+  right: -100%;
+  top: 0;
+  text-align: center;
+  padding: 80px 0;
+  line-height: normal;
+  transition: 0.7s;
+}
+
+.fa-times:before {
+  content: "\f00d";
+  color: #fff;
+}
+
+.menu a {
+  display: block;
+  padding: 20px;
+}
+
+.hide-menu-btn {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  color: #fff;
+  padding-right: 12%;
+}
+
+#chk:checked~.menu {
+  right: 0;
+}
+
+.section-info h4 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+#contact {
+  border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+  overflow-x: hidden;
+  padding: 1em 0;
+}
+
+#contact>.inner {
+  padding: 0 !important;
+  display: block;
+}
+
+#contact>.inner> :nth-child(2n - 1) {
+  border-right: 0;
+  width: 100%;
+}
+
+#contact>.inner> :nth-child(2n - 1) {
+  padding: 3em 0 1em 0;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 65em;
+  width: calc(116% - 6em);
+}
+
+#contact>.inner>.split {
+  padding: 0;
+}
+
+#contact>.inner> :nth-child(2n) {
+  padding-left: 0;
+  width: 100%;
+}
+
+#contact>.inner>.split>* {
+  padding: 3em 0 1em 0;
+  position: relative;
+}
+
+#contact>.inner>.split>*:before {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.16);
+  content: '';
+  display: block;
+  margin-left: -3em;
+  position: absolute;
+  top: 0;
+  width: calc(100vw + 3em);
+}
+
+.titulo {
+  text-align: center;
+  padding: 1em;
+  font-size: 28px;
+}
+
+/**/
+.section-city {
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+
+.section-city h2 {
+  font-size: 35px;
+  /* margin-top: 60px; */
+  margin-bottom: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+}
+/* .btn {
+
+  min-width: 180px;
+  height: 50px;
+  font-weight: 500;
+  background-color: #544BDC;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px 50px 50px 50px;
+  color: white;
+  float: right;
+  margin-right: 4%;
+}
+.btnd{
+  line-height: 100px;
+} */
