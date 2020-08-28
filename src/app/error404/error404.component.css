@@ -1,0 +1,58 @@
+.header-banner{
+  width: 100%;
+  height: 100vh;
+
+}
+/*
+.img-header{
+  height: 60%;
+} */
+
+.img {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 98;
+}
+
+.img-header2{
+  width: 100%;
+  height: 100vh;
+  float: left;
+}
+
+.container-header {
+  height: 100%!important;
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.degrade {
+  height: 100%!important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.bienvenido{
+  /* position: absolute;
+  padding: 50px;
+  width: 50%;
+  padding-top: 150px;
+  padding-left: 0px; */
+  position: absolute;
+  top: 35%;
+  padding: 0 90px;
+  width: 50%;
+  margin: 0;
+  transform: translate(50%, 0%);
+  /* padding-top: 25%; */
+  /* padding-left: 0px;*/
+}
